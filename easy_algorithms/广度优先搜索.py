@@ -52,6 +52,7 @@ def find_mango_seller(name):
                 return True
             else:
                 search_queue += graph[person]
+                search_list.append(person)
     return False
 
 
